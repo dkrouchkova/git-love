@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Git Love</title>
+</head>
+<body>
+	<header>
+		<h1>A love letter to git</h1>
+	</header>
+
+	<details>
+		<summary>What is it?</summary>
+		<p>Git is a versioning software that is used in the command line. It tracks workflows and keeps a log of “commits” (stages of changes you have declared as check points along the path of the workflow) which can be accessed at any time. The best way to think of git is like a tree. When you start a new project, you start at the base of the tree. As the project develops and you make your commits, you have an idea to try out a new direction from a previous (or current) commit. You go back in time to that checkpoint, and can begin to build out another direction, or branch, of the project without making changes to the trunk (master branch).</p>
+
+		<p>You can create an elaborate system of branches with git and access all of the points along the way without losing any information. All of this is stored in a “.git” file in the directory you are working in. This file is ignored by the file browser of your system, but you can find it with the bash command of “ls” (lists all files in current directory). The cool thing about git is that it doesn’t just keep track of one file you make changes to. It tracks changes in the whole directory. Git works locally on your computer. Below is a love letter to git with some basic commands. </p>
+	</details>
+
+	<main>
+		<p>Dear git,</p> 
+		<p>To put it simply, you never forget. If I ask you to be there for me, you always are. No matter how many crazy mistakes I make, you can rewind time and help me forget it ever happened. You let me explore all of my free spirited ideas. Whether they be completely disastrous, dead ends, or lead me to magical new places, you’re right there with me, supporting me, keeping me from destroying something beautiful. They say you never know what you have until you’ve lost it, but with you I know what I have and I don’t ever need to lose it! And if I find something better, you more than gladly replace the old with the new. The most exciting thing is that you’re not afraid of commitment, and neither am I! What more could a girl as for? You’re perfect. I couldn’t dream of a better versioning system if I tried. You hold the key to my heart, and I to yours. Although yours is a little bit more complex, or rather long. Like a list of sweet nothings, which do a whole lot of things, I want to tell the world about them. </p>
+
+		<ul>
+			<li>“git init” is how you can be part of a new project, or idea, or I just want you to be in on something. I show you the directory and you’re ready to go.</li>
+			<li>“git status” lets me know what you are look at and that are ready for anything.</li>
+			<li>“git add” and the file name get you to start tracking a new file.</li>
+			<li>“git add .” puts everything under your watchful eye.</li>
+			<li>“git commit -m” saves everything, like a scrapbook page. But I can’t forget to add the message (-m) in quotes because flipping through the countless pages of commitments we’ve made will be a tedious task, to say the least, especially since some commitments vary very slightly.</li>
+			<li>“git log” shows me a timeline of the commitments we’ve made.</li>
+			<li>Branches can get kind of messy. Each time I want to try something new, I can feel free to branch out, and you’ll always be there by my side.</li>
+			<li>“git branch” pulls up a list of all of the branches we’ve made on this project, and stars (*)  the one we are currently in.</li>
+			<li>“git checkout -b” and a name creates a new branch and puts me right at the start of it. </li>
+			<li>“git checkout” lets me get onto the branch I named. I can make changes from there, keep working onwards or merge it to another branch:</li>
+			<li>“git merge” and the name of the branch I am merging the current one to, combines all changes into the new one.</li>
+			<li>Getting things up to our digital storage (GitHub - see GitHub love letter here) took some practice and patience. </li>
+			<li>After we’ve committed to everything with all the messages in order, and we want to add a new repository to GitHub:
+	“git remote add origin http://github.com/yourusername/repositoryname.git” This will ask us to verify we are who we are with a user name, then a password (which looks like it doesn’t type out but love eans trust, so I trust git to have my back). Then we type:
+	“git push -u origin master” and just like that we’re done!</li>
+			<li>If we’re just updating a repository with new work (and the local and remote files match by name):
+	“git push origin master” and follow the steps git takes you on to complete the push.</li>
+		</ul>
+
+		<p>These are just some of the few ways I love you, git. I can’t get enough of typing out your name.
+	</p>
+
+		<p>Lots of love from the bottom of my commits, <br>
+			<figure>
+					<img src="http://placehold.it/250x100" alt="signature">
+			</figure>
+		Dalila xoxo</p>
+	</main>
+
+</body>
+</html>
