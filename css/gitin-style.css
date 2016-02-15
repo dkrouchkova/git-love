@@ -11,31 +11,10 @@
 	box-sizing: border-box;
 }
 
-/* clearfix paul irish*/
-
-.clearfix:after {
-	display: table;
-	content: " ";
-	clear: both;
-}
-
-
 /* global styles */
 
 .centerme {
 	text-align: center;
-}
-
-.left {
-	float: left;
-}
-
-.right {
-	float: right;
-}
-
-.hide {
-	display: none;
 }
 
 /* ~~~~~~ page styles ~~~~~~ */
@@ -43,7 +22,6 @@
 .wholepage {
 	background-image: url("file:///C:/Users/Dalila/Documents/GitHub/git-love/img/wood-texture.jpg");
 	background-size: cover;
-	/*background: rgba(255,69,69,.5);*/
 	max-width: 960px;
 	margin: 0 auto;
 	font-family: 'Oswald', sans-serif;
@@ -52,7 +30,6 @@
 header {
 	width: 960px;
 	margin: 0 auto;
-	/*background-color: rgba(236,220,190,1);*/
 	background-image: url("file:///C:/Users/Dalila/Documents/GitHub/git-love/img/brackets.png");
 	background-size: 400px 300px;
 	background-repeat: no-repeat;
@@ -77,9 +54,6 @@ p {
 	list-style: none;
 	padding-left: 20px;
 	padding-bottom: 10px;
-	/* 
-	padding-right: 30px;
-	*/
 	}
 
 .listing li {
@@ -89,15 +63,12 @@ p {
 .letter {
 	background-image: url("file:///C:/Users/Dalila/Documents/GitHub/git-love/img/pink-paper.jpg");
 	background-size: cover;
-	/*background-color: rgba(236,220,190,1);*/
 	max-width: 700px;
 	margin: 0 auto;
 	padding: 50px;
 	margin-bottom: 20px;
 	border-style: solid;
 	border-width: 5px;
-	/*font-size: 1.4em;
-	 */
 }
 
 .signature {
@@ -115,17 +86,17 @@ details {
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-bottom: 50px;
-	/*color: rgba(255,255,255,.8);*/
-}
-
-.expandme {
-	/*padding: 20px;
-	text-align: left;*/
-
 }
 
 .expandme p {
 	font-size: .8em;
-	/* padding-bottom: 2%;
-	font-style: italic; */
+}
+
+/* signing off */
+.closing {
+	margin-top: 50px;
+}
+
+.closing figure img {
+	max-width: 250px;
 }
