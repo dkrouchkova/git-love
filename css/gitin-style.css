@@ -1,0 +1,131 @@
+/* universal styles */
+
+/*css reset*/
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* clearfix paul irish*/
+
+.clearfix:after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+
+/* global styles */
+
+.centerme {
+	text-align: center;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.hide {
+	display: none;
+}
+
+/* ~~~~~~ page styles ~~~~~~ */
+
+.wholepage {
+	background-image: url("file:///C:/Users/Dalila/Documents/GitHub/git-love/img/wood-texture.jpg");
+	background-size: cover;
+	/*background: rgba(255,69,69,.5);*/
+	max-width: 960px;
+	margin: 0 auto;
+	font-family: 'Oswald', sans-serif;
+}
+
+header {
+	width: 960px;
+	margin: 0 auto;
+	/*background-color: rgba(236,220,190,1);*/
+	background-image: url("file:///C:/Users/Dalila/Documents/GitHub/git-love/img/brackets.png");
+	background-size: 400px 300px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+h1 {
+	width: 300px;
+	margin: 0 auto;
+	font-family: 'Lobster', cursive;
+	font-size: 4em;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: rgba(246,173,181,1);
+}
+
+p {
+	padding-bottom: 15px; 
+}
+
+.listing {
+	list-style: none;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	/* 
+	padding-right: 30px;
+	*/
+	}
+
+.listing li {
+	padding: 10px;
+}
+
+.letter {
+	background-image: url("file:///C:/Users/Dalila/Documents/GitHub/git-love/img/pink-paper.jpg");
+	background-size: cover;
+	/*background-color: rgba(236,220,190,1);*/
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 50px;
+	margin-bottom: 20px;
+	border-style: solid;
+	border-width: 5px;
+	/*font-size: 1.4em;
+	 */
+}
+
+.signature {
+	padding-bottom: 45px;
+}
+
+/* "What is it?" segment formatting */
+details {
+	background-image: url("file:///C:/Users/Dalila/Documents/GitHub/git-love/img/torn-edge.png");
+	background-size: 700px 500px;
+	background-repeat: no-repeat;
+	max-width: 700px;
+	margin: 0 auto;
+	padding-top: 70px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	/*color: rgba(255,255,255,.8);*/
+}
+
+.expandme {
+	/*padding: 20px;
+	text-align: left;*/
+
+}
+
+.expandme p {
+	font-size: .8em;
+	/* padding-bottom: 2%;
+	font-style: italic; */
+}

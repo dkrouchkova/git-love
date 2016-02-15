@@ -2,25 +2,31 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<!-- Fonts: heading, and body, respectively -->
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/gitin-style.css">
 	<title>Git Love</title>
 </head>
-<body>
-	<header>
-		<h1>A love letter to git</h1>
+<body class="wholepage">
+	<header class="centerme">
+		<h1>A <br> love letter <br> to git</h1>
 	</header>
 
-	<details>
-		<summary>What is it?</summary>
-		<p>Git is a versioning software that is used in the command line. It tracks workflows and keeps a log of “commits” (stages of changes you have declared as check points along the path of the workflow) which can be accessed at any time. The best way to think of git is like a tree. When you start a new project, you start at the base of the tree. As the project develops and you make your commits, you have an idea to try out a new direction from a previous (or current) commit. You go back in time to that checkpoint, and can begin to build out another direction, or branch, of the project without making changes to the trunk (master branch).</p>
+	<details class="centerme">
+		<summary>What is git?</summary>
+		<div class="expandme">
+			<p>Git is a versioning software that is used in the command line. It tracks workflows and keeps a log of “commits” (stages of changes you have declared as check points along the path of the workflow) which can be accessed at any time. The best way to think of git is like a tree. When you start a new project, you start at the base of the tree. As the project develops and you make your commits, you have an idea to try out a new direction from a previous (or current) commit. You go back in time to that checkpoint, and can begin to build out another direction, or branch, of the project without making changes to the trunk (master branch).</p>
 
-		<p>You can create an elaborate system of branches with git and access all of the points along the way without losing any information. All of this is stored in a “.git” file in the directory you are working in. This file is ignored by the file browser of your system, but you can find it with the bash command of “ls” (lists all files in current directory). The cool thing about git is that it doesn’t just keep track of one file you make changes to. It tracks changes in the whole directory. Git works locally on your computer. Below is a love letter to git with some basic commands. </p>
+			<p>You can create an elaborate system of branches with git and access all of the points along the way without losing any information. All of this is stored in a “.git” file in the directory you are working in. This file is ignored by the file browser of your system, but you can find it with the bash command of “ls” (lists all files in current directory). The cool thing about git is that it doesn’t just keep track of one file you make changes to. It tracks changes in the whole directory. Git works locally on your computer. Below is a love letter to git with some basic commands. </p>
+		</div>
 	</details>
 
-	<main>
+	<main class="letter">
 		<p>Dear git,</p> 
 		<p>To put it simply, you never forget. If I ask you to be there for me, you always are. No matter how many crazy mistakes I make, you can rewind time and help me forget it ever happened. You let me explore all of my free spirited ideas. Whether they be completely disastrous, dead ends, or lead me to magical new places, you’re right there with me, supporting me, keeping me from destroying something beautiful. They say you never know what you have until you’ve lost it, but with you I know what I have and I don’t ever need to lose it! And if I find something better, you more than gladly replace the old with the new. The most exciting thing is that you’re not afraid of commitment, and neither am I! What more could a girl as for? You’re perfect. I couldn’t dream of a better versioning system if I tried. You hold the key to my heart, and I to yours. Although yours is a little bit more complex, or rather long. Like a list of sweet nothings, which do a whole lot of things, I want to tell the world about them. </p>
 
-		<ul>
+		<ul class="listing">
 			<li>“git init” is how you can be part of a new project, or idea, or I just want you to be in on something. I show you the directory and you’re ready to go.</li>
 			<li>“git status” lets me know what you are look at and that are ready for anything.</li>
 			<li>“git add” and the file name get you to start tracking a new file.</li>
@@ -45,7 +51,7 @@
 
 		<p>Lots of love from the bottom of my commits, <br>
 			<figure>
-					<img src="http://placehold.it/250x100" alt="signature">
+					<img src="http://placehold.it/300x100" alt="signature">
 			</figure>
 		Dalila xoxo</p>
 	</main>
