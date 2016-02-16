@@ -20,7 +20,7 @@
 /* ~~~~~~ page styles ~~~~~~ */
 
 .wholepage {
-	background-image: url("file:///C:/Users/Dalila/Documents/GitHub/git-love/img/wood-texture.jpg");
+	background-image: url("http://creative.colorado.edu/~dakr1474/dev/git-love/img/wood-texture.jpg");
 	background-size: cover;
 	max-width: 960px;
 	margin: 0 auto;
@@ -30,7 +30,7 @@
 header {
 	width: 960px;
 	margin: 0 auto;
-	background-image: url("file:///C:/Users/Dalila/Documents/GitHub/git-love/img/brackets.png");
+	background-image: url("http://creative.colorado.edu/~dakr1474/dev/git-love/img/brackets.png");
 	background-size: 400px 300px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -61,7 +61,7 @@ p {
 }
 
 .letter {
-	background-image: url("file:///C:/Users/Dalila/Documents/GitHub/git-love/img/pink-paper.jpg");
+	background-image: url("http://creative.colorado.edu/~dakr1474/dev/git-love/img/pink-paper.jpg");
 	background-size: cover;
 	max-width: 700px;
 	margin: 0 auto;
@@ -77,7 +77,7 @@ p {
 
 /* "What is it?" segment formatting */
 details {
-	background-image: url("file:///C:/Users/Dalila/Documents/GitHub/git-love/img/torn-edge.png");
+	background-image: url("http://creative.colorado.edu/~dakr1474/dev/git-love/img/torn-edge.png");
 	background-size: 700px 500px;
 	background-repeat: no-repeat;
 	max-width: 700px;
